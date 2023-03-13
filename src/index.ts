@@ -34,3 +34,8 @@ const userDetails: userDetailsInterface={
     student:true
 }
 
+//4. union
+//this enable you to assign a more the one type to a variable by specifying the types
+let userInfo: number | string 
+userInfo="Imran"
+userInfo=6
