@@ -1,3 +1,3 @@
 "use strict";
 let id = 5;
-id = 10;
+id = 5;
