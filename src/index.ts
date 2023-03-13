@@ -5,3 +5,4 @@ let firstName: string= "imran"
 let isStudent: boolean
 isStudent=false
 
+let letter: any ="a"
