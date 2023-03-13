@@ -62,3 +62,8 @@ enum Names{
     lastName="ngati"
 }
 console.log(`My name is ${Names.firstName} ${Names.middleName} ${Names.lastName}`)
+
+//7.Type assertions
+let userId:any =1
+let employerId=<number>userId //means that you want employerId to be as the userId but you've specified its type
+console.log(employerId)
