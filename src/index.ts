@@ -4,8 +4,9 @@ let firstName: string= "imran"
 
 let isStudent: boolean
 isStudent=false
-//"any" allows the variable value to be any type
-let letter: any ="a" 
+let letter: any ="a" //"any" allows the variable value to be any type
+let arr: number[]
+arr=[1,2,3,4]
 
 //2. type in objects
 type detailtype={
@@ -39,3 +40,9 @@ const userDetails: userDetailsInterface={
 let userInfo: number | string 
 userInfo="Imran"
 userInfo=6
+
+let arrInfo: number[] | string[]
+arrInfo=[2,3,4]
+arrInfo=["imran", "matano"]
+
+//
