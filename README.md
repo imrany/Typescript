@@ -24,4 +24,19 @@ Check the version
 ```bash
 tsc -v
 ```
-Create a new project and create an `index.ts` file.
+Create a new project and create an `index.ts` file and follow through my commits,
+You can fork this repo and clone it to your machine after following the steps above.
+```bash 
+git clone https://github.com/imrany/Typescript.git
+```
+After cloning you can log the commit using
+```bash
+git log --oneline
+```
+You will see every commits that was made, from the initial commit to the latest commit.
+To see what i did on a specific commit you can checkout from the main branch to that commit, like this
+```bash 
+git checkout <commentID>
+```
+you will get commentID when you run `git log --oneline`.
+
