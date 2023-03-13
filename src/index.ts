@@ -48,3 +48,9 @@ arrInfo=["imran", "matano"]
 //5. tuple
 let person: [number, boolean, string]
 person=[2, true, "imran"]
+
+let employer: [number, string][]
+employer=[
+    [1,"imran"],
+    [2,"matano"]
+]
