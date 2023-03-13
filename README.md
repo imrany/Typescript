@@ -40,3 +40,6 @@ git checkout <commentID>
 ```
 you will get commentID when you run `git log --oneline`.
 
+
+You should create a `dist` folder in the root directory
+in `dist` is where the javascript compile from the typescript in `src` folder will stay.
