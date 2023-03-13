@@ -22,6 +22,12 @@ const user:detailtype={
     single:true,
     desc:"Hello there"
 }
+//type
+type score=number|string
+let grade:score
+grade="A"
+grade=450
+console.log(grade)
 
 //3. interface with objects
 interface userDetailsInterface {
@@ -34,6 +40,7 @@ const userDetails: userDetailsInterface={
     name:"matano",
     student:true
 }
+console.log(userDetails)
 
 //4. union
 //this enable you to assign a more the one type to a variable by specifying the types
