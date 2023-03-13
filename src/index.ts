@@ -68,13 +68,15 @@ let userId:any =1
 let employerId=<number>userId //means that you want employerId to be as the userId but you've specified its type
 console.log(employerId)
 
-//8. functions
+//8. functions with types
 function sum(x: number, y:number): number{
     return y+x
 }
 console.log(sum(3,4)) //output 7
 // void function
-function logMessage(message: string): void{
+function logMessage(message: string | number): void{
     console.log(message)
 }
 logMessage("Hello friend")
+logMessage(24)
+
