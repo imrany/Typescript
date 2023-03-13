@@ -24,6 +24,14 @@ Check the version
 ```bash
 tsc -v
 ```
+To initialize a typescript project craate a folder, change directory to the folder `cd <folderPath/name>` then
+```bash
+tsc --init
+```
+this will create a `tsconfig.json` for you. in here, you can configure the typescript compiler to you liking.
+check [tsconfig.json](./tsconfig.json).
+
+
 Create a new project and create an `index.ts` file and follow through my commits,
 You can fork this repo and clone it to your machine after following the steps above.
 ```bash 
