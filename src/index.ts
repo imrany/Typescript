@@ -67,3 +67,14 @@ console.log(`My name is ${Names.firstName} ${Names.middleName} ${Names.lastName}
 let userId:any =1
 let employerId=<number>userId //means that you want employerId to be as the userId but you've specified its type
 console.log(employerId)
+
+//8. functions
+function sum(x: number, y:number): number{
+    return y+x
+}
+console.log(sum(3,4)) //output 7
+// void function
+function logMessage(message: string): void{
+    console.log(message)
+}
+logMessage("Hello friend")
