@@ -87,3 +87,18 @@ function logMessage(message: string | number): void{
 logMessage("Hello friend")
 logMessage(24)
 
+//9. classes
+class person{
+  id: number
+  name: string
+
+  constructor(id:number, name: string){
+    this.id=id
+    this.name=name
+  }
+}
+//creating an object called imran from person class
+const imran =new person(1,"imran")
+console.log(imran)
+
+//10. generics
