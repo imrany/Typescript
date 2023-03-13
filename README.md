@@ -51,3 +51,19 @@ you will get commentID when you run `git log --oneline`.
 
 You should create a `dist` folder in the root directory
 in `dist` is where the javascript compile from the typescript in `src` folder will stay.
+
+## index.ts
+Check the [index.ts](./src/index.ts) and navigate from my commits
+```typescript
+//1. basic types
+let id: number=5
+let firstName: string= "imran"
+
+let isStudent: boolean
+isStudent=false
+let letter: any ="a" //"any" allows the variable value to be any type
+let arr: number[]
+arr=[1,2,3,4]
+```
+thats the first commit.
+
