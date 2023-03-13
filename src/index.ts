@@ -55,7 +55,7 @@ employer=[
     [2,"matano"]
 ]
 
-//6. enum enumerated types
+//6. enum enumerated typesindex.ts
 enum Names{
     firstName="imran",
     middleName="matano",
