@@ -45,4 +45,6 @@ let arrInfo: number[] | string[]
 arrInfo=[2,3,4]
 arrInfo=["imran", "matano"]
 
-//
+//5. tuple
+let person: [number, boolean, string]
+person=[2, true, "imran"]
