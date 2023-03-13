@@ -1,4 +1,4 @@
-//basic types
+//1. basic types
 let id: number=5
 let firstName: string= "imran"
 
@@ -7,7 +7,7 @@ isStudent=false
 //"any" allows the variable value to be any type
 let letter: any ="a" 
 
-//type in objects
+//2. type in objects
 type detailtype={
     id: number
     name: string
@@ -21,3 +21,16 @@ const user:detailtype={
     single:true,
     desc:"Hello there"
 }
+
+//3. interface with objects
+interface userDetailsInterface {
+    id: number
+    name: string
+    student: boolean
+}
+const userDetails: userDetailsInterface={
+    id:2,
+    name:"matano",
+    student:true
+}
+
