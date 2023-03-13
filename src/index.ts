@@ -54,3 +54,11 @@ employer=[
     [1,"imran"],
     [2,"matano"]
 ]
+
+//6. enum enumerated types
+enum Names{
+    firstName="imran",
+    middleName="matano",
+    lastName="ngati"
+}
+console.log(`My name is ${Names.firstName} ${Names.middleName} ${Names.lastName}`)
