@@ -4,5 +4,5 @@ let firstName: string= "imran"
 
 let isStudent: boolean
 isStudent=false
-
-let letter: any ="a"
+//"any" allows the variable value to be any type
+let letter: any ="a" 
