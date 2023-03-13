@@ -5,7 +5,7 @@ in typescript you can defined a variable's datatype hence making it strictly to 
 example:
 in Typescript:
 ```typescript
-    let name: string="imran"
+let name: string="imran"
 
 ```
 in javascript:
@@ -13,4 +13,15 @@ in javascript:
 let name ="imran";
 ```
 Typescript must be compiled to javascript since the browser cannot understand typescript.
- Typescript support static type this prevent errors
+Typescript support static type this prevent errors
+
+## Starter
+To start with typescript. you have to install typescript via npm or yarn, globally ro locally on your project.
+```bash
+npm install -g typescript
+```
+Check the version
+```bash
+tsc -v
+```
+Create a new project and create an `index.ts` file.
